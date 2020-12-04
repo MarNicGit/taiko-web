@@ -66,3 +66,6 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .npm
+public/src/js/taiko-web.js
+public/src/js/taiko-web.js.map
+public/src/css/site.css
