@@ -52,4 +52,17 @@ public/index.html
 config.py
 public/assets/song_skins
 .venv
+
+# temp stuff
 *.log
+
+# Build results
+[Rr]elease/
+
+#npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
