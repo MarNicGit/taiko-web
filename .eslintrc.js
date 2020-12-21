@@ -3,9 +3,7 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: [
-    'standard'
-  ],
+
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 12,
@@ -15,6 +13,8 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
-    semi: ["error", "always"]
+    semi: ["error", "always"],
+    quotes: ["error", "single"],
+    'wrap-regex': "error"
   }
 }
